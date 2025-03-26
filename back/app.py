@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:011711@localhost/tasks'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:senha@localhost/tasks'
 db = SQLAlchemy(app)
 CORS(app, resources={r"/tasks/*": {"origins": "http://localhost:4444"}})
 
