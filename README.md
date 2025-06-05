@@ -1,5 +1,7 @@
 # 3tasks
 
+Este projeto é uma aplicação web full-stack para gerenciamento de tarefas (to-do list), onde o usuário pode criar, visualizar, editar e deletar tarefas. O backend em Flask fornece uma API para manipular as tarefas, enquanto o frontend em React oferece uma interface interativa para o usuário organizar suas atividades diárias de forma prática.
+
 ### Backend
 
 1. Navegue até a pasta `back`:
